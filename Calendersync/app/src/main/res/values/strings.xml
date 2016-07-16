@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Calendersync</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Tutorial -->
+    <string name="walkthrough_button">continue</string>
+
+    <string name="walkthrough_text0">1. Select a date with a click on the month, go to today and open the menu for backup and more with the two icons. </string>
+    <string name="walkthrough_text1">2. Open the day overview and sync an appointment by holding a day. To navigate just swipe between months. </string>
+    <string name="walkthrough_text2">3. Enable receive with the left button, sync a calendar with the right button.</string>
+</resources>

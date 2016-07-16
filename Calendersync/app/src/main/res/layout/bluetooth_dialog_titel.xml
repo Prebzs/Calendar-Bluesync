@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+              android:background="@color/colorDarkBlue">
+
+    <ImageView
+        android:id="@+id/dialog_title_color"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:layout_alignTop="@+id/bluetooth_dialog_info"
+        android:layout_alignBottom="@+id/bluetooth_dialog_info"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"/>
+
+    <ImageView
+        android:id="@+id/bluetooth_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bluetooth_dialog_info"
+        android:layout_alignBottom="@+id/bluetooth_dialog_info"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dp"
+        android:background="@color/colorTransparent"
+        android:src="@drawable/ic_bluetooth_searching_black_48dp"/>
+
+    <RelativeLayout
+        android:id="@+id/bluetooth_dialog_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/dialog_title_color"
+        android:layout_toStartOf="@+id/bluetooth_imageview"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp">
+
+        <TextView
+            android:id="@+id/bluetooth_dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/colorWhite"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:text="BLUETOOTH DIALOG TITLE"/>
+
+        <TextView
+            android:id="@+id/bluetooth_dialog_second_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bluetooth_dialog_title"
+            android:textColor="@color/colorWhite"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="MORE INFOS"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

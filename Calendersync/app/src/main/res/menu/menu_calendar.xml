@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.CalendarActivity">
+    <item
+        android:id="@+id/menu_sync_calendar"
+        android:title="Sync calendar"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_sync_range"
+        android:title="Sync range"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_turn_receive_on"
+        android:title="Turn receive on"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_choose_calendars"
+        android:title="Show Calendars"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_load_backup"
+        android:title="Load backup"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_today"
+        android:title="Today"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_tutorial"
+        android:title="Tutorial"
+        app:showAsAction="never" />
+</menu>
